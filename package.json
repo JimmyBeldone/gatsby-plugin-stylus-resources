@@ -1,0 +1,42 @@
+{
+    "name": "gatsby-plugin-stylus-resources",
+    "description": "Gatsby support for Stylus with resources (e.g. variables, mixins etc.)",
+    "version": "1.0.0",
+    "author": "Jimmy Beldone <dev.jimmy.beldone@gmail.com>",
+    "bugs": {
+        "url": "https://github.com/JimmyBeldone/gatsby-plugin-stylus-resources/issues"
+    },
+    "dependencies": {
+        "@babel/runtime": "^7.0.0",
+        "sass-resources-loader": "^2.0.0",
+        "stylus": "^0.54.5",
+        "stylus-loader": "^3.0.1"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.0.0",
+        "@babel/core": "^7.0.0",
+        "babel-preset-gatsby-package": "^0.1.3",
+        "cross-env": "^5.1.4"
+    },
+    "homepage": "https://github.com/JimmyBeldone/gatsby-plugin-stylus-resources",
+    "keywords": [
+        "gatsby",
+        "gatsby-plugin",
+        "gatsby-plugin-stylus",
+        "stylus",
+        "stylus-resources",
+        "sass-resources"
+    ],
+    "license": "MIT",
+    "main": "./index.js",
+    "peerDependencies": {
+        "gatsby": "^2.0.0"
+    },
+    "readme": "README.md",
+    "repository": "https://github.com/JimmyBeldone/gatsby-plugin-stylus-resources",
+    "scripts": {
+        "build": "babel src --out-dir .",
+        "prepare": "cross-env NODE_ENV=production yarn build",
+        "watch": "babel -w src --out-dir ."
+    }
+}
