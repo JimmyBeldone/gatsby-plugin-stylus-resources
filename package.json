@@ -1,7 +1,7 @@
 {
     "name": "gatsby-plugin-stylus-resources",
     "description": "Gatsby support for Stylus with resources (e.g. variables, mixins etc.)",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "author": "Jimmy Beldone <dev.jimmy.beldone@gmail.com>",
     "bugs": {
         "url": "https://github.com/JimmyBeldone/gatsby-plugin-stylus-resources/issues"
