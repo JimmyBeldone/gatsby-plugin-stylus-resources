@@ -16,7 +16,7 @@ or
 
 ## Usage
 
-1.  Create your file (or files) with resources:
+1. Create your file (or files) with resources :
 
 ```styl
 /* styles/config/mixins.styl */
@@ -33,7 +33,7 @@ truncate($fontsize = 14px)
     text-overflow: ellipsis
 ```
 
-2.  Include the plugin in your `gatsby-config.js` file :
+2. Include the plugin in your `gatsby-config.js` file :
 
 ```javascript
 /* gatsby-config.js */
