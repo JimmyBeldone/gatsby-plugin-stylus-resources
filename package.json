@@ -27,7 +27,7 @@
     "readme": "README.md",
     "repository": {
         "type": "git",
-        "url": "https://github.com/JimmyBeldone/gatsby-plugin-stylus-resources#readme"
+        "url": "https://github.com/JimmyBeldone/gatsby-plugin-stylus-resources"
     },
     "homepage": "https://github.com/JimmyBeldone/gatsby-plugin-stylus-resources",
     "dependencies": {

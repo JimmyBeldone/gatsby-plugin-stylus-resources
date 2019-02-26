@@ -2,9 +2,11 @@
 
 Provides drop-in support for Stylus with or without CSS Modules, with shared resources (e.g. variables, mixins etc.)
 
-This is an extended version of [gatsby-plugin-stylus](https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-plugin-stylus)
+This is an extended version of [gatsby-plugin-stylus](https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-plugin-stylus).
 
 The only difference is the use of [sass-resources-loader](https://github.com/shakacode/sass-resources-loader) so you can use your shared variables & mixins across all `.styl` files without manually importing them in each file.
+
+**Feel free to check out and run the [example folder](https://github.com/JimmyBeldone/gatsby-plugin-stylus-resources/tree/master/example) for detailed configuration.**
 
 ## Install
 
