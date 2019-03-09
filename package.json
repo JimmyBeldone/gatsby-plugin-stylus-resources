@@ -24,7 +24,6 @@
     "peerDependencies": {
         "gatsby": "^2.0.0"
     },
-    "readme": "README.md",
     "homepage": "https://github.com/JimmyBeldone/gatsby-plugin-stylus-resources",
     "repository": {
         "type": "git",
