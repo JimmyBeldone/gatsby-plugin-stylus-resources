@@ -1,6 +1,34 @@
-# gatsby-plugin-stylus-resources
+<h1 align="center" style="border-bottom: none;">gatsby-plugin-stylus-resources</h1>
+<h2 align="center">Provides drop-in support for Stylus with or without CSS Modules, with shared resources (e.g. variables, mixins etc.)</h2>
 
-Provides drop-in support for Stylus with or without CSS Modules, with shared resources (e.g. variables, mixins etc.)
+<p align="center">
+    <a href="https://travis-ci.com/JimmyBeldone/gatsby-plugin-stylus-resources">
+        <img alt="travis build" src="https://travis-ci.com/JimmyBeldone/gatsby-plugin-stylus-resources.svg?branch=master">
+    </a>
+    <a href="https://www.npmjs.com/package/gatsby-plugin-stylus-resources">
+        <img alt="npm version" src="https://badgen.net/npm/v/gatsby-plugin-stylus-resources">
+    </a>
+    <a href="#badge">
+        <img alt="dependencies status" src="https://badgen.net/david/dep/JimmyBeldone/gatsby-plugin-stylus-resources">
+    </a>
+    <a href="#badge">
+        <img alt="dev dependencies status" src="https://badgen.net/david/dev/JimmyBeldone/gatsby-plugin-stylus-resources">
+    </a>
+</p>
+<p align="center">
+    <a href="http://commitizen.github.io/cz-cli/">
+        <img alt="commitizen" src="https://img.shields.io/badge/commitizen-friendly-brightgreen.svg">
+    </a>
+    <a href="https://github.com/semantic-release/semantic-release">
+        <img alt="semantic-release" src="https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg">
+    </a>
+    <a href="https://github.com/prettier/prettier">
+        <img alt="prettier" src="https://img.shields.io/badge/styled_with-prettier-ff69b4.svg">
+    </a>
+    <a href="https://github.com/JimmyBeldone/gatsby-plugin-stylus-resources/blob/master/LICENSE">
+        <img alt="license" src="https://badgen.net/github/license/JimmyBeldone/gatsby-plugin-stylus-resources">
+    </a>
+</p>
 
 This is an extended version of [gatsby-plugin-stylus](https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-plugin-stylus).
 
@@ -20,37 +48,37 @@ or
 
 1. Create your file (or files) with resources :
 
-```styl
-/* styles/config/mixins.styl */
+    ```styl
+    /* styles/config/mixins.styl */
 
-flexbox($value = row)
-    display: flex
-    flex-direction: $value
+    flexbox($value = row)
+        display: flex
+        flex-direction: $value
 
-truncate($fontsize = 14px)
-    flexbox()
-    height: $fontsize + 4px
-    white-space: nowrap
-    overflow: hidden
-    text-overflow: ellipsis
-```
+    truncate($fontsize = 14px)
+        flexbox()
+        height: $fontsize + 4px
+        white-space: nowrap
+        overflow: hidden
+        text-overflow: ellipsis
+    ```
 
 2. Include the plugin in your `gatsby-config.js` file :
 
-```javascript
-/* gatsby-config.js */
+    ```javascript
+    /* gatsby-config.js */
 
-module.exports = {
-  plugins: [
-    {
-      resolve: "gatsby-plugin-stylus-resources",
-      options: {
-        resources: ['./src/styles/config/mixins.styl', 'path/to/another/file.styl'],
-      },
-    },
-  ],
-}
-```
+    module.exports = {
+      plugins: [
+        {
+          resolve: "gatsby-plugin-stylus-resources",
+          options: {
+            resources: ['./src/styles/config/mixins.styl', 'path/to/another/file.styl'],
+          },
+        },
+      ],
+    }
+    ```
 
 ⚠️ **Do not include anything that will be actually rendered in CSS**, because it will be added to every imported `.styl` file.
 
@@ -106,3 +134,13 @@ plugins: [
   },
 ]
 ```
+
+## Contributing
+
+Contributions are welcome ! See [contributing guidelines](https://github.com/JimmyBeldone/gatsby-plugin-webpack-bundle-analyser-v2/blob/master/CONTRIBUTING.md)
+
+## License
+
+MIT
+
+Copyright (c) 2019 Jimmy Beldone
