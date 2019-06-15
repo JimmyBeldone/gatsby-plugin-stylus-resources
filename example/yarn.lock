@@ -871,7 +871,7 @@
   dependencies:
     regenerator-runtime "^0.12.0"
 
-"@babel/runtime@^7.4.4":
+"@babel/runtime@^7.4.5":
   version "7.4.5"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.4.5.tgz#582bb531f5f9dc67d2fcb682979894f75e253f12"
   integrity sha512-TuI4qpWZP6lGOGIuGWtp9sPluqYICmbk8T/1vpSysqJxRPkudh/ofFWyqdcMsDf2s7KvDL4/YHgKyvcS3g9CJQ==
@@ -4891,13 +4891,13 @@ gatsby-plugin-sharp@2.1.5:
     sharp "^0.22.1"
     svgo "^1.2.0"
 
-gatsby-plugin-stylus-resources@1.0.12:
-  version "1.0.12"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-stylus-resources/-/gatsby-plugin-stylus-resources-1.0.12.tgz#8bd80470bf8144a496e607da06cdd91eebc58910"
-  integrity sha512-mn5GYKTIZvH46TpYC6KFaz7IbuKtGDiEQHIGZvIjrgnpvuikVe1RQNSKa34O2aFVPLDsAVDVEe1GKpaHsnsmsg==
+gatsby-plugin-stylus-resources@1.0.13:
+  version "1.0.13"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-stylus-resources/-/gatsby-plugin-stylus-resources-1.0.13.tgz#34812aaee81902fe23358d6896ffe44dabc628f1"
+  integrity sha512-QSiTKp9BR1QXQGwarvpvKodlPK6RMDF7rjO2Q8QNhgFuuFVEijJEsc8HyYFrpJHT0Y8yOrqBZai1aYZ6iHaANQ==
   dependencies:
-    "@babel/runtime" "^7.4.4"
-    sass-resources-loader "^2.0.0"
+    "@babel/runtime" "^7.4.5"
+    sass-resources-loader "^2.0.1"
     stylus "^0.54.5"
     stylus-loader "^3.0.1"
 
@@ -9574,10 +9574,10 @@ safe-regex@^1.1.0:
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
 
-sass-resources-loader@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/sass-resources-loader/-/sass-resources-loader-2.0.0.tgz#88569c542fbf1f18f33a6578b77cc5b36c56911d"
-  integrity sha512-I+5FfV+Hb29U5Nt8DbslWOBgRmTv1M/EwOn4/4rc6Aqy9yjygoa8UTnyCFXfTZV8FoQyIBZbEyKSBryhByqQbA==
+sass-resources-loader@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/sass-resources-loader/-/sass-resources-loader-2.0.1.tgz#c8427f3760bf7992f24f27d3889a1c797e971d3a"
+  integrity sha512-UsjQWm01xglINC1kPidYwKOBBzOElVupm9RwtOkRlY0hPA4GKi2KFsn4BZypRD1kudaXgUnGnfbiVOE7c+ybAg==
   dependencies:
     async "^2.1.4"
     chalk "^1.1.3"
