@@ -11,6 +11,9 @@
         "sass-resources"
     ],
     "scripts": {
+        "lint": "eslint src --fix",
+        "pretty": "prettier --write 'src/**/*.js'",
+        "test": "echo 'No test specified'",
         "build": "babel src --out-dir .",
         "prepare": "cross-env NODE_ENV=production yarn build",
         "watch": "babel -w src --out-dir ."
@@ -38,7 +41,14 @@
     "devDependencies": {
         "@babel/cli": "7.4.4",
         "@babel/core": "7.4.5",
-        "babel-preset-gatsby-package": "0.1.4",
-        "cross-env": "5.2.0"
+        "babel-eslint": "^10.0.1",
+        "babel-preset-gatsby-package": "^0.1.4",
+        "cross-env": "5.2.0",
+        "eslint": "^5.16.0",
+        "eslint-config-airbnb-base": "^13.1.0",
+        "eslint-config-prettier": "^5.0.0",
+        "eslint-plugin-import": "^2.17.3",
+        "eslint-plugin-prettier": "^3.1.0",
+        "prettier": "^1.18.2"
     }
 }
