@@ -19,7 +19,7 @@
     "react-helmet": "5.2.1"
   },
   "devDependencies": {
-    "gatsby-plugin-stylus-resources": "1.0.13",
+    "gatsby-plugin-stylus-resources": "1.0.14",
     "prettier": "1.18.2"
   },
   "keywords": [
