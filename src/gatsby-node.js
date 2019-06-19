@@ -1,6 +1,6 @@
 exports.onCreateWebpackConfig = (
-    { actions, stage, rules, plugins, loaders },
-    { resources, postCssPlugins, ...stylusOptions }
+    { actions, stage, loaders },
+    { resources, postCssPlugins, ...stylusOptions },
 ) => {
     const { setWebpackConfig } = actions;
     const PRODUCTION = stage !== `develop`;
@@ -17,7 +17,7 @@ exports.onCreateWebpackConfig = (
     const ressourcesLoader = {
         loader: require.resolve('sass-resources-loader'),
         options: {
-            resources: resources,
+            resources,
         },
     };
 
@@ -47,6 +47,7 @@ exports.onCreateWebpackConfig = (
 
     let configRules = [];
 
+    // eslint-disable-next-line default-case
     switch (stage) {
         case `develop`:
         case `build-javascript`:
