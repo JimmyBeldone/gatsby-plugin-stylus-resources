@@ -15,8 +15,9 @@
     "lint": "eslint src --fix",
     "pretty": "prettier --write 'src/**/*.js'",
     "test": "echo 'No test specified'",
+    "clean": "rimraf ./gatsby-node.js",
     "build": "babel src --out-dir .",
-    "prepare": "cross-env NODE_ENV=production yarn build",
+    "prepare": "yarn clean && cross-env NODE_ENV=production yarn build",
     "watch": "babel -w src --out-dir .",
     "semantic-release": "semantic-release"
   },
@@ -34,6 +35,9 @@
     "type": "git",
     "url": "https://github.com/JimmyBeldone/gatsby-plugin-stylus-resources.git"
   },
+  "engines": {
+    "node": ">=8.0.0"
+  },
   "dependencies": {
     "@babel/runtime": "^7.4.5",
     "sass-resources-loader": "^2.0.1",
@@ -49,7 +53,7 @@
     "babel-preset-gatsby-package": "0.2.0",
     "commitizen": "3.1.1",
     "cross-env": "5.2.0",
-    "eslint": "6.0.0",
+    "eslint": "5.16.0",
     "eslint-config-airbnb-base": "13.1.0",
     "eslint-config-prettier": "5.0.0",
     "eslint-plugin-import": "2.17.3",

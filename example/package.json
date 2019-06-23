@@ -16,9 +16,11 @@
     "prop-types": "15.7.2",
     "react": "16.8.6",
     "react-dom": "16.8.6",
-    "react-helmet": "5.2.1"
+    "react-helmet": "5.2.1",
+    "webpack": "^4.35.0"
   },
   "devDependencies": {
+    "gatsby-plugin-stylus-resources": "1.0.13",
     "prettier": "1.18.2"
   },
   "keywords": [
