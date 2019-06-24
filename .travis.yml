@@ -24,7 +24,7 @@ script: yarn test
 jobs:
   include:
     - stage: release
-      node_js: lts/*
+      node_js: stable
       deploy:
         provider: script
         skip_cleanup: true
