@@ -19,7 +19,9 @@
     "build": "babel src --out-dir .",
     "prepare": "yarn clean && cross-env NODE_ENV=production yarn build",
     "watch": "babel -w src --out-dir .",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "Jimmy Beldone <dev.jimmy.beldone@gmail.com>",
   "bugs": {
@@ -39,7 +41,8 @@
     "@babel/runtime": "^7.4.5",
     "sass-resources-loader": "^2.0.1",
     "stylus": "^0.54.5",
-    "stylus-loader": "^3.0.1"
+    "stylus-loader": "^3.0.1",
+    "snyk": "^1.190.0"
   },
   "devDependencies": {
     "@babel/cli": "7.4.4",
@@ -77,5 +80,6 @@
       "prettier --write",
       "git add"
     ]
-  }
+  },
+  "snyk": true
 }
