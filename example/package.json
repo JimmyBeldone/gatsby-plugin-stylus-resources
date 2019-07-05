@@ -18,7 +18,7 @@
     "react-dom": "16.8.6",
     "react-helmet": "5.2.1",
     "webpack": "^4.35.0",
-    "snyk": "^1.189.0"
+    "snyk": "^1.192.3"
   },
   "devDependencies": {
     "gatsby-plugin-stylus-resources": "1.0.13",
