@@ -1,3 +1,10 @@
+## [1.0.21](https://github.com/JimmyBeldone/gatsby-plugin-stylus-resources/compare/v1.0.20...v1.0.21) (2019-07-05)
+
+
+### Bug Fixes
+
+* example/.snyk, example/package.json & example/package-lock.json to reduce vulnerabilities ([be56113](https://github.com/JimmyBeldone/gatsby-plugin-stylus-resources/commit/be56113))
+
 ## [1.0.20](https://github.com/JimmyBeldone/gatsby-plugin-stylus-resources/compare/v1.0.19...v1.0.20) (2019-07-05)
 
 
