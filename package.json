@@ -38,11 +38,11 @@
     "url": "https://github.com/JimmyBeldone/gatsby-plugin-stylus-resources.git"
   },
   "dependencies": {
-    "@babel/runtime": "^7.4.5",
+    "@babel/runtime": "^7.5.5",
     "sass-resources-loader": "^2.0.1",
+    "snyk": "^1.195.1",
     "stylus": "^0.54.5",
-    "stylus-loader": "^3.0.1",
-    "snyk": "^1.192.3"
+    "stylus-loader": "^3.0.1"
   },
   "devDependencies": {
     "@babel/cli": "7.5.5",
@@ -56,7 +56,7 @@
     "eslint": "6.0.1",
     "eslint-config-airbnb-base": "13.2.0",
     "eslint-config-prettier": "6.0.0",
-    "eslint-plugin-import": "2.18.0",
+    "eslint-plugin-import": "2.18.1",
     "eslint-plugin-prettier": "3.1.0",
     "husky": "3.0.1",
     "lint-staged": "9.2.0",
