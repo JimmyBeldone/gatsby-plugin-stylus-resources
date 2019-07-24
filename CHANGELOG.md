@@ -1,3 +1,10 @@
+## [1.0.23](https://github.com/JimmyBeldone/gatsby-plugin-stylus-resources/compare/v1.0.22...v1.0.23) (2019-07-24)
+
+
+### Bug Fixes
+
+* **deps:** update dependency snyk to v2 ([de1cdb4](https://github.com/JimmyBeldone/gatsby-plugin-stylus-resources/commit/de1cdb4))
+
 ## [1.0.22](https://github.com/JimmyBeldone/gatsby-plugin-stylus-resources/compare/v1.0.21...v1.0.22) (2019-07-08)
 
 
