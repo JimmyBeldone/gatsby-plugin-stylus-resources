@@ -1,3 +1,10 @@
+## [1.0.24](https://github.com/JimmyBeldone/gatsby-plugin-stylus-resources/compare/v1.0.23...v1.0.24) (2019-07-25)
+
+
+### Bug Fixes
+
+* **deps:** roll back dependency snyk to ^1.199.2 ([7964b8e](https://github.com/JimmyBeldone/gatsby-plugin-stylus-resources/commit/7964b8e))
+
 ## [1.0.23](https://github.com/JimmyBeldone/gatsby-plugin-stylus-resources/compare/v1.0.22...v1.0.23) (2019-07-24)
 
 
