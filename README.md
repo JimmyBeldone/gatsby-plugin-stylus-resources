@@ -48,7 +48,7 @@ or
 
 1. Create your file (or files) with resources :
 
-    ```styl
+    ```stylus
     /* styles/config/mixins.styl */
 
     flexbox($value = row)
