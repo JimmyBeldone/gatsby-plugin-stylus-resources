@@ -1,3 +1,10 @@
+## [1.0.25](https://github.com/JimmyBeldone/gatsby-plugin-stylus-resources/compare/v1.0.24...v1.0.25) (2019-10-04)
+
+
+### Bug Fixes
+
+* remove snyk ([f4d3ec1](https://github.com/JimmyBeldone/gatsby-plugin-stylus-resources/commit/f4d3ec1))
+
 ## [1.0.24](https://github.com/JimmyBeldone/gatsby-plugin-stylus-resources/compare/v1.0.23...v1.0.24) (2019-07-25)
 
 
