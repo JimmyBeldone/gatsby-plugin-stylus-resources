@@ -38,7 +38,7 @@
     "url": "https://github.com/JimmyBeldone/gatsby-plugin-stylus-resources.git"
   },
   "dependencies": {
-    "@babel/runtime": "^7.5.5",
+    "@babel/runtime": "^7.6.2",
     "sass-resources-loader": "^2.0.1",
     "snyk": "^1.216.0",
     "stylus": "^0.54.5",
