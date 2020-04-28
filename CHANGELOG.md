@@ -1,3 +1,10 @@
+## [1.0.26](https://github.com/JimmyBeldone/gatsby-plugin-stylus-resources/compare/v1.0.25...v1.0.26) (2020-04-28)
+
+
+### Bug Fixes
+
+* update yarn lock ([0e07a84](https://github.com/JimmyBeldone/gatsby-plugin-stylus-resources/commit/0e07a84e5e1e40a1b7a72ae8f20531375ef72474))
+
 ## [1.0.25](https://github.com/JimmyBeldone/gatsby-plugin-stylus-resources/compare/v1.0.24...v1.0.25) (2019-10-04)
 
 
