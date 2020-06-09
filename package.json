@@ -1,7 +1,7 @@
 {
   "name": "gatsby-plugin-stylus-resources",
   "description": "Gatsby support for Stylus with resources (e.g. variables, mixins etc.)",
-  "version": "1.0.26",
+  "version": "1.0.27",
   "keywords": [
     "gatsby",
     "gatsby-plugin",
