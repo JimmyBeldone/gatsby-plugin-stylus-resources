@@ -36,7 +36,7 @@
     "url": "https://github.com/JimmyBeldone/gatsby-plugin-stylus-resources.git"
   },
   "dependencies": {
-    "@babel/runtime": "^7.9.6",
+    "@babel/runtime": "^7.10.3",
     "sass-resources-loader": "^2.0.1",
     "stylus": "^0.54.7",
     "stylus-loader": "^3.0.1"
@@ -47,7 +47,7 @@
     "@semantic-release/changelog": "5.0.1",
     "@semantic-release/git": "9.0.0",
     "babel-eslint": "10.1.0",
-    "babel-preset-gatsby-package": "0.4.4",
+    "babel-preset-gatsby-package": "0.4.6",
     "commitizen": "4.1.2",
     "cross-env": "7.0.2",
     "eslint": "7.3.1",
@@ -59,7 +59,7 @@
     "lint-staged": "10.2.11",
     "prettier": "2.0.5",
     "rimraf": "3.0.2",
-    "semantic-release": "17.0.8"
+    "semantic-release": "17.1.0"
   },
   "config": {
     "commitizen": {
