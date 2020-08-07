@@ -36,10 +36,10 @@
     "url": "https://github.com/JimmyBeldone/gatsby-plugin-stylus-resources.git"
   },
   "dependencies": {
-    "@babel/runtime": "^7.10.3",
-    "sass-resources-loader": "^2.0.1",
-    "stylus": "^0.54.7",
-    "stylus-loader": "^3.0.1"
+    "@babel/runtime": "^7.11.2",
+    "sass-resources-loader": "^2.0.3",
+    "stylus": "^0.54.8",
+    "stylus-loader": "^3.0.2"
   },
   "devDependencies": {
     "@babel/cli": "7.10.5",
