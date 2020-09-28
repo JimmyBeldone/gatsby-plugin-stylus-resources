@@ -1,3 +1,11 @@
+## [1.0.30](https://github.com/JimmyBeldone/gatsby-plugin-stylus-resources/compare/v1.0.29...v1.0.30) (2020-09-28)
+
+
+### Bug Fixes
+
+* new ci ([ac6c0c6](https://github.com/JimmyBeldone/gatsby-plugin-stylus-resources/commit/ac6c0c64d25731fdf7527bf7523fa7f1bd163f87))
+* wrong semantic version number ([7c74485](https://github.com/JimmyBeldone/gatsby-plugin-stylus-resources/commit/7c7448557b6b875873afd73946c8c8c699eec558))
+
 ## [1.0.29](https://github.com/JimmyBeldone/gatsby-plugin-stylus-resources/compare/v1.0.28...v1.0.29) (2020-08-13)
 
 
