@@ -1,7 +1,7 @@
 {
   "name": "gatsby-plugin-stylus-resources",
   "description": "Gatsby support for Stylus with resources (e.g. variables, mixins etc.)",
-  "version": "1.0.29",
+  "version": "1.0.27",
   "keywords": [
     "gatsby",
     "gatsby-plugin",
@@ -59,7 +59,7 @@
     "lint-staged": "10.2.11",
     "prettier": "2.0.5",
     "rimraf": "3.0.2",
-    "semantic-release": "17.1.1"
+    "semantic-release": "17.1.2"
   },
   "config": {
     "commitizen": {
