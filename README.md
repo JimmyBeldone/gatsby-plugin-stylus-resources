@@ -2,8 +2,11 @@
 <h2 align="center">Provides drop-in support for Stylus with or without CSS Modules, with shared resources (e.g. variables, mixins etc.)</h2>
 
 <p align="center">
-    <a href="https://travis-ci.com/JimmyBeldone/gatsby-plugin-stylus-resources">
-        <img alt="travis build" src="https://travis-ci.com/JimmyBeldone/gatsby-plugin-stylus-resources.svg?branch=master">
+    <a href="https://github.com/JimmyBeldone/gatsby-plugin-stylus-resources">
+        <img alt="travis build" src="https://github.com/JimmyBeldone/gatsby-plugin-stylus-resources/workflows/TESTING/badge.svg">
+    </a>
+    <a href="https://github.com/JimmyBeldone/gatsby-plugin-stylus-resources">
+        <img alt="travis build" src="https://github.com/JimmyBeldone/gatsby-plugin-stylus-resources/workflows/PUBLISH/badge.svg">
     </a>
     <a href="https://www.npmjs.com/package/gatsby-plugin-stylus-resources">
         <img alt="npm version" src="https://badgen.net/npm/v/gatsby-plugin-stylus-resources">
