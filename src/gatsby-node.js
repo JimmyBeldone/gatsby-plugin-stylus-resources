@@ -10,7 +10,7 @@ exports.onCreateWebpackConfig = (
         loader: require.resolve(`stylus-loader`),
         options: {
             sourceMap: !PRODUCTION,
-            ...stylusOptions,
+            stylusOptions: { ...stylusOptions },
         },
     };
 
