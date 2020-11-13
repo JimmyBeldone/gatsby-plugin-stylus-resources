@@ -5,24 +5,24 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
-    "gatsby": "2.17.10",
-    "gatsby-image": "2.2.30",
-    "gatsby-plugin-manifest": "2.2.26",
-    "gatsby-plugin-offline": "3.0.18",
-    "gatsby-plugin-react-helmet": "3.1.13",
-    "gatsby-plugin-sharp": "2.2.36",
-    "gatsby-source-filesystem": "2.1.35",
-    "gatsby-transformer-sharp": "2.3.2",
+    "gatsby": "2.26.0",
+    "gatsby-image": "2.5.0",
+    "gatsby-plugin-manifest": "2.6.0",
+    "gatsby-plugin-offline": "3.4.0",
+    "gatsby-plugin-react-helmet": "3.4.0",
+    "gatsby-plugin-sharp": "2.8.0",
+    "gatsby-source-filesystem": "2.5.0",
+    "gatsby-transformer-sharp": "2.6.0",
     "prop-types": "15.7.2",
-    "react": "16.11.0",
-    "react-dom": "16.11.0",
-    "react-helmet": "5.2.1",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-helmet": "6.1.0",
     "snyk": "^1.244.0",
-    "webpack": "^4.41.2"
+    "webpack": "^5.4.0"
   },
   "devDependencies": {
-    "gatsby-plugin-stylus-resources": "1.0.25",
-    "prettier": "1.19.1"
+    "gatsby-plugin-stylus-resources": "file:../",
+    "prettier": "2.1.2"
   },
   "keywords": [
     "gatsby"
