@@ -1,3 +1,10 @@
+## [1.0.33](https://github.com/JimmyBeldone/gatsby-plugin-stylus-resources/compare/v1.0.32...v1.0.33) (2020-11-23)
+
+
+### Bug Fixes
+
+* update dependencies ([65aeba7](https://github.com/JimmyBeldone/gatsby-plugin-stylus-resources/commit/65aeba7f30a0938a3c2bf63529e7380fdf9b5f2e))
+
 ## [1.0.32](https://github.com/JimmyBeldone/gatsby-plugin-stylus-resources/compare/v1.0.31...v1.0.32) (2020-11-13)
 
 
