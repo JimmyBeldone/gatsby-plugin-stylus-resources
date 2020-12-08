@@ -1,3 +1,10 @@
+## [1.0.34](https://github.com/JimmyBeldone/gatsby-plugin-stylus-resources/compare/v1.0.33...v1.0.34) (2020-12-08)
+
+
+### Bug Fixes
+
+* update stylus-loader to [@4](https://github.com/4).3.1 ([21b4225](https://github.com/JimmyBeldone/gatsby-plugin-stylus-resources/commit/21b422580238a6b8c8efb52146e732184a2cf23e))
+
 ## [1.0.33](https://github.com/JimmyBeldone/gatsby-plugin-stylus-resources/compare/v1.0.32...v1.0.33) (2020-11-23)
 
 
