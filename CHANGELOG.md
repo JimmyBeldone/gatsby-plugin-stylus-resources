@@ -1,3 +1,16 @@
+# [2.0.0](https://github.com/JimmyBeldone/gatsby-plugin-stylus-resources/compare/v1.0.36...v2.0.0) (2021-03-09)
+
+
+### Bug Fixes
+
+* 💥 🐛 update dependency stylus-loader to v5 ([a0801ea](https://github.com/JimmyBeldone/gatsby-plugin-stylus-resources/commit/a0801eaaf4747fc746326c3fc0cf0ce1dd7c8384))
+
+
+### BREAKING CHANGES
+
+* - minimum supported Webpack version is 5
+- minimum supported Gatsby version is 3
+
 ## [1.0.36](https://github.com/JimmyBeldone/gatsby-plugin-stylus-resources/compare/v1.0.35...v1.0.36) (2021-03-09)
 
 
