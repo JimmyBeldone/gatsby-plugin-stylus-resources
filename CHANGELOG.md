@@ -1,3 +1,10 @@
+## [1.0.36](https://github.com/JimmyBeldone/gatsby-plugin-stylus-resources/compare/v1.0.35...v1.0.36) (2021-03-09)
+
+
+### Bug Fixes
+
+* 🐛 add gatby v3 peer dependency ([0e01677](https://github.com/JimmyBeldone/gatsby-plugin-stylus-resources/commit/0e0167785d4b9d1bc897bf7427fcf2afee87426b))
+
 ## [1.0.35](https://github.com/JimmyBeldone/gatsby-plugin-stylus-resources/compare/v1.0.34...v1.0.35) (2021-01-24)
 
 
