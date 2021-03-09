@@ -28,7 +28,7 @@
   "license": "MIT",
   "main": "./index.js",
   "peerDependencies": {
-    "gatsby": "^2.0.0 || ^3.0.0"
+    "gatsby": "^3.0.0"
   },
   "homepage": "https://github.com/JimmyBeldone/gatsby-plugin-stylus-resources",
   "repository": {
@@ -39,7 +39,7 @@
     "@babel/runtime": "^7.13.10",
     "sass-resources-loader": "^2.0.3",
     "stylus": "^0.54.8",
-    "stylus-loader": "^4.3.3"
+    "stylus-loader": "^5.0.0"
   },
   "devDependencies": {
     "@babel/cli": "7.13.10",

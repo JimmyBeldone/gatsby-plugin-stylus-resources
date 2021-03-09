@@ -41,11 +41,23 @@ The only difference is the use of [sass-resources-loader](https://github.com/sha
 
 ## Install
 
+⚠️ **BREAKING CHANGE : v2 uses `stylus-loader@5.x.x` which requires Webpack 5 minimun (included in Gatsby v3)**
+
+### Gatsby v3
+
 `npm i gatsby-plugin-stylus-resources -d`
 
 or
 
 `yarn add gatsby-plugin-stylus-resources -D`
+
+### Gatsby v2
+
+`npm i gatsby-plugin-stylus-resources@1.0.36 -d`
+
+or
+
+`yarn add gatsby-plugin-stylus-resources@1.0.36 -D`
 
 ## Usage
 
