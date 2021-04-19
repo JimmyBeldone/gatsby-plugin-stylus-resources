@@ -37,7 +37,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.13.10",
-    "sass-resources-loader": "^2.0.3",
+    "sass-resources-loader": "^2.1.1",
     "stylus": "^0.54.8",
     "stylus-loader": "^5.0.0"
   },
