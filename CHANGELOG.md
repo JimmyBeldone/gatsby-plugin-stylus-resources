@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/JimmyBeldone/gatsby-plugin-stylus-resources/compare/v2.0.0...v2.0.1) (2021-06-23)
+
+
+### Bug Fixes
+
+* 🐛 update dependencies ([8b9a363](https://github.com/JimmyBeldone/gatsby-plugin-stylus-resources/commit/8b9a363a76e63a1cf47f35193acdf9dd3a9e4da1))
+
 # [2.0.0](https://github.com/JimmyBeldone/gatsby-plugin-stylus-resources/compare/v1.0.36...v2.0.0) (2021-03-09)
 
 
