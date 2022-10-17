@@ -11,12 +11,12 @@
     <a href="https://www.npmjs.com/package/gatsby-plugin-stylus-resources">
         <img alt="npm version" src="https://badgen.net/npm/v/gatsby-plugin-stylus-resources">
     </a>
-    <a href="#badge">
+    <!-- <a href="#badge">
         <img alt="dependencies status" src="https://badgen.net/david/dep/JimmyBeldone/gatsby-plugin-stylus-resources">
     </a>
     <a href="#badge">
         <img alt="dev dependencies status" src="https://badgen.net/david/dev/JimmyBeldone/gatsby-plugin-stylus-resources">
-    </a>
+    </a> -->
 </p>
 <p align="center">
     <a href="http://commitizen.github.io/cz-cli/">
@@ -43,7 +43,7 @@ The only difference is the use of [sass-resources-loader](https://github.com/sha
 
 ⚠️ **BREAKING CHANGE : v2 uses `stylus-loader@5.x.x` which requires Webpack 5 minimun (included in Gatsby v3)**
 
-### Gatsby v3
+### For Gatsby v3
 
 `npm i gatsby-plugin-stylus-resources -d`
 
@@ -51,7 +51,7 @@ or
 
 `yarn add gatsby-plugin-stylus-resources -D`
 
-### Gatsby v2
+### For Gatsby v2
 
 `npm i gatsby-plugin-stylus-resources@1.0.36 -d`
 
