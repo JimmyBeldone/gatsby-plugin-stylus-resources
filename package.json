@@ -38,8 +38,8 @@
   "dependencies": {
     "@babel/runtime": "^7.17.8",
     "sass-resources-loader": "^2.2.4",
-    "stylus": "^0.56.0",
-    "stylus-loader": "^6.2.0"
+    "stylus": "^0.59.0",
+    "stylus-loader": "^7.1.0"
   },
   "devDependencies": {
     "@babel/cli": "7.19.3",
