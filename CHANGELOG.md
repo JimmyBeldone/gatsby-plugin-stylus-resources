@@ -1,3 +1,10 @@
+## [2.0.6](https://github.com/JimmyBeldone/gatsby-plugin-stylus-resources/compare/v2.0.5...v2.0.6) (2023-05-03)
+
+
+### Bug Fixes
+
+* 🐛 Gatsby v5 peerDependency ([220cc4b](https://github.com/JimmyBeldone/gatsby-plugin-stylus-resources/commit/220cc4b4c83f0e51fb1b02a0f598c1e6a9767324))
+
 ## [2.0.5](https://github.com/JimmyBeldone/gatsby-plugin-stylus-resources/compare/v2.0.4...v2.0.5) (2022-10-17)
 
 
