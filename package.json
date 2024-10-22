@@ -42,10 +42,10 @@
     "stylus-loader": "^7.1.3"
   },
   "devDependencies": {
-    "@babel/cli": "7.23.0",
-    "@babel/core": "7.23.3",
-    "@babel/eslint-parser": "7.23.3",
-    "@babel/preset-react": "7.23.3",
+    "@babel/cli": "7.25.9",
+    "@babel/core": "7.25.9",
+    "@babel/eslint-parser": "7.25.9",
+    "@babel/preset-react": "7.25.9",
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/git": "10.0.1",
     "babel-eslint": "10.1.0",
